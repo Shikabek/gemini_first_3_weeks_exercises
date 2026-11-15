@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    color: black;
+}
+
+.nav_link {
+    text-decoration: none;
+}
+
+#main-title {
+    color: darkorchid;
+}
+
+article > p {
+    line-height: 20px;
+}
+
