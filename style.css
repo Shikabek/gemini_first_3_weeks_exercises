@@ -12,6 +12,15 @@ body {
 }
 
 article > p {
-    line-height: 20px;
+    line-height: 5px;
 }
 
+form #name {
+    border: 20px;
+    border-color: black;
+}
+
+button:hover {
+    background-color: yellowgreen;
+    color:coral
+}
