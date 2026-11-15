@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Дата</th>
+                    <th>Ракета</th>
+                    <th>Миссия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="#">
+            <label for="name">Ваше Имя:</label>
+            <input type="text" name="first-name" id="name">
+            <br>
+            <label for="mail">Эл. почта:</label>
+            <input type="email" name="mail" id="mail">
+            <br>
+            <span>Ваша Должность:</span>
+            <input type="radio" name="position" id="engineer">
+            <label for="engineer">Инженер</label>
+            <input type="radio" name="position" id="biologist">
+            <label for="biologist">Биолог</label>
+            <input type="radio" name="position" id="captain">
+            <label for="captain">Капитан Корабля</label>
+            <br>
+            <label for="agreement">Я Согласен(-на)</label>
+            <input type="checkbox" name="agreement" id="agreement">
+            <br>
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
+</body>
+</html>
