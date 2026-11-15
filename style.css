@@ -16,11 +16,10 @@ article > p {
 }
 
 form #name {
-    border: 20px;
-    border-color: black;
+    border: 2px dashed black;
 }
 
 button:hover {
     background-color: yellowgreen;
-    color:coral
+    color:coral;
 }
